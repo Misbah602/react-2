@@ -17,6 +17,18 @@
       color: white;
     }
 
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     /* Navbar */
     .navbar {
       display: flex;
@@ -102,6 +114,8 @@
     .hero-image img {
       max-width: 100%;
       height: auto;
+      animation: fadeIn 1.5s ease-in-out forwards;
+      opacity: 0;
     }
 
     /* Brand Section */
@@ -156,13 +170,12 @@
 
   <!-- Brands -->
   <section class="brands">
-    <img src="assets/img/client-1.png" alt="myob" height="800" width="500" />
-    <img src="https://via.placeholder.com/100x30?text=BELIMO" alt="BELIMO" />
-    <img src="https://via.placeholder.com/100x30?text=LifeGroups" alt="LifeGroups" />
-    <img src="https://via.placeholder.com/100x30?text=Lilly" alt="Lilly" />
-    <img src="https://via.placeholder.com/100x30?text=citrus" alt="citrus" />
-    <img src="https://via.placeholder.com/100x30?text=Trustly" alt="Trustly" />
+    <img src="assets/image/img.jpg" alt="myob" width="300" height="600" />
+    <img src="assets/image/img1.jpg" 00x30?text=LifeGroups" alt="LifeGroups" />
+    <img src="assets/image/img5.jpg" alt="Lilly" />
+    <img src="assets/image/img3.jpg" alt="citrus" />
+    <img src="assets/image/img4.jpg" alt="Trustly" />
+    <img src="assets/image/img1.jpg" alt="BELIMO" />
   </section>
-
 </body>
 </html>
